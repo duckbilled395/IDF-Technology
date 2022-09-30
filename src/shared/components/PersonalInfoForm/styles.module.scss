@@ -1,0 +1,48 @@
+.root {
+  min-height: 100%;
+
+  .form {
+    width: 300px;
+    height: 840px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px auto;
+
+    .date {
+      display: flex;
+      flex-direction: column;
+
+      &__title {
+        color: rgba(0, 0, 0, 0.6);
+        font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+        font-size: 1rem;
+        line-height: 1.4375em;
+        letter-spacing: 0.00938em;
+        margin-bottom: 10px;
+      }
+
+      &__inputs {
+        display: flex;
+        flex-direction: row;
+      }
+    }
+
+    &__helperText {
+      color: #d32f2f;
+    }
+  }
+
+  .btn {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 350px) {
+  .root {
+
+    .form {
+      width: 200px;
+    }
+  }
+}

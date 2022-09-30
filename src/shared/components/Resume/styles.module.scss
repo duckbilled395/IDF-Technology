@@ -1,0 +1,34 @@
+.root {
+
+  margin: 0 auto;
+  width: 300px;
+
+  .signUpInfo {
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+
+  .personalInfo {
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+
+  .title {
+    text-align: center;
+    color: $blue;
+  }
+
+  .text {
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+  .btnBox {
+    margin: 20px 0 0 10px;
+    width: 300px;
+
+    .btn {
+      margin: 10px;
+    }
+  }
+}

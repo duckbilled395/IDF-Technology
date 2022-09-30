@@ -1,0 +1,14 @@
+@mixin headerFooterSize ($positionProp, $positionTopValue, $positionBottomValue, $color) {
+  width: 100%;
+  position: $positionProp;
+  top: $positionTopValue;
+  bottom: $positionBottomValue;
+  background: $color;
+  z-index: 100;
+}
+
+@mixin headerFooterContainer ($height) {
+  width: 80%;
+  height: $height;
+  margin: 0 auto;
+}
