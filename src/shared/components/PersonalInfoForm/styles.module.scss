@@ -1,0 +1,57 @@
+.root {
+
+  //.names {
+  //  width: 600px;
+  //  display: flex;
+  //  flex-direction: row;
+  //  justify-content: space-between;
+  //  //flex-wrap: wrap;
+  //  margin: 20px auto;
+  //
+  //  &__inner {
+  //    width: 280px;
+  //  }
+  //}
+
+  //.other {
+  //  width: 300px;
+  //  margin: 0 auto;
+
+    .form {
+      width: 300px;
+      height: 600px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin: 20px auto;
+
+      .date {
+        display: flex;
+        flex-direction: column;
+
+        &__title {
+          color: rgba(0, 0, 0, 0.6);
+          font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+          font-size: 1rem;
+          line-height: 1.4375em;
+          letter-spacing: 0.00938em;
+          margin-bottom: 10px;
+        }
+
+        &__inputs {
+          display: flex;
+          flex-direction: row;
+        }
+      }
+    //}
+
+  }
+
+  .hobby {
+    margin: 0 auto;
+  }
+
+  .btn {
+    margin-bottom: 100px;
+  }
+}
